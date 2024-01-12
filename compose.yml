@@ -1,0 +1,23 @@
+services:
+  management:
+    image: eclipse-temurin:17
+    volumes:
+      - ./Management/build/libs/demo-0.0.1-SNAPSHOT.jar:/opt/service.jar
+    entrypoint: ["java","-jar","/opt/service.jar"]
+  rdw:
+    image: eclipse-temurin:21
+    volumes:
+      - ./DatabaseModule/build/libs/DatabaseModule-1.0-SNAPSHOT.jar:/opt/service.jar
+    entrypoint: ["java","-jar","/opt/service.jar"]
+  vision:
+    image: eclipse-temurin:17
+    volumes:
+      - ./VisionService/build/libs/VisionService-0.0.1-SNAPSHOT.jar:/opt/service.jar
+    entrypoint: ["java","-jar","/opt/service.jar"]
+  frontend:
+    image: httpd
+    volumes:
+      - ./frontend:/usr/local/apache2/htdocs
+      - ./apache.conf:/usr/local/apache2/conf/httpd.conf
+    ports:
+      - 8080:80
