@@ -1,4 +1,4 @@
-package numberrecognition.com.databasemodule;
+package numberrecognition.com.databasemodule.api;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @RestController
 @Validated
 @RequestMapping("/api/test")
-public class Controller {
+public class TestController {
 
     @GetMapping("")
     @ResponseStatus(HttpStatus.OK)

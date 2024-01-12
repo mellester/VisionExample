@@ -1,4 +1,4 @@
-package numberrecognition.com.databasemodule;
+package numberrecognition.com.databasemodule.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
