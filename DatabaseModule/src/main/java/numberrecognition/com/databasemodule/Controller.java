@@ -22,7 +22,7 @@ public class Controller {
     @GetMapping("")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity GetRecord() {
-        return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(
-                new ConcurrentHashMap<>(Map.of("Hello", "word")));
+        return ResponseEntity.ok("Hello world"
+                );
     }
 }

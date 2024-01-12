@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DatabaseModule/DatabaseModule.iml" filepath="$PROJECT_DIR$/DatabaseModule/DatabaseModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/VissionExample.iml" filepath="$PROJECT_DIR$/.idea/VissionExample.iml" />
     </modules>
   </component>
