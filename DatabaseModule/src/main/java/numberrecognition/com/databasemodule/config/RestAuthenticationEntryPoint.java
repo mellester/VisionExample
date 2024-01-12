@@ -1,4 +1,4 @@
-package numberrecognition.com.databasemodule;
+package numberrecognition.com.databasemodule.config;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
