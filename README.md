@@ -4,15 +4,15 @@ A small Java application where we use Vision to see a license plate
 To build the application build each of the modules:
 
 ```
-.\DatabaseModule\gradlew jar -p .\DatabaseModule\
-.\Management\gradlew jar -p .\Management\
-.\VisionService\gradlew jar -p .\VisionService\
+.\DatabaseModule\gradlew build -p .\DatabaseModule\
+.\Management\gradlew build -p .\Management\
+.\VisionService\gradlew build -p .\VisionService\
 ```
 
 ```bash
-./DatabaseModule/gradlew jar -p ./DatabaseModule/
-./Management/gradlew jar -p ./Management/
-./VisionService/gradlew jar -p ./VisionService/
+DatabaseModule/gradlew build -p DatabaseModule/
+Management/gradlew build -p Management/
+VisionService/gradlew build -p VisionService/
 ```
 
 
