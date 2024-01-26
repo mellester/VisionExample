@@ -1,0 +1,32 @@
+services:
+  management:
+    image: eclipse-temurin:17
+    volumes:
+      - type: bind
+        source: ./Management/build/libs/demo-0.0.1-SNAPSHOT.jar
+        target: /opt/service.jar
+        read_only: true
+    entrypoint: ["java","-jar","/opt/service.jar"]
+  rdw:
+    image: eclipse-temurin:21
+    volumes:
+      - type: bind
+        source: ./DatabaseModule/build/libs/DatabaseModule-1.0-SNAPSHOT.jar
+        target: /opt/service.jar
+        read_only: true
+    entrypoint: ["java","-jar","/opt/service.jar"]
+  vision:
+    image: eclipse-temurin:17
+    volumes:
+      - type: bind
+        source: ./VisionService/build/libs/VisionService-0.0.1-SNAPSHOT.jar
+        target: /opt/service.jar
+        read_only: true
+    entrypoint: ["java","-jar","/opt/service.jar"]
+  frontend:
+    image: httpd
+    volumes:
+      - ./frontend:/usr/local/apache2/htdocs
+      - ./apache.conf:/usr/local/apache2/conf/httpd.conf
+    ports:
+      - 8080:80
