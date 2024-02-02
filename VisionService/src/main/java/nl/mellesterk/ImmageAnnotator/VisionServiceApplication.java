@@ -1,4 +1,4 @@
-package com.example.VisionService;
+package nl.mellesterk.ImmageAnnotator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

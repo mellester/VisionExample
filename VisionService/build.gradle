@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.2.1'
 	id 'io.spring.dependency-management' version '1.1.4'
+	id "application"
 }
 
 group = 'com.example'
@@ -11,13 +12,60 @@ java {
 	sourceCompatibility = '17'
 }
 
+def mainClass = "nl.mellesterk.ImmageAnnotator.VisionServiceApplication"
+
+springBoot {
+	mainClassName = mainClass
+}
+
+bootJar {
+	mainClassName = mainClass
+}
+
+
+// Uncomment to make the project executable by running `./gradlew run` used for testing locally
+// application {
+//     mainClassName = "nl.mellesterk.ImmageAnnotator.QuickstartSample"
+// }
+
 repositories {
 	mavenCentral()
 }
 
+
+// Pin the Spring Boot version
+def springBootVersion = '3.2.0'
+
+
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// Spring
+	implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
+	testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-thymeleaf:${springBootVersion}"
+    implementation group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: "${springBootVersion}"
+    implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.1.2.RELEASE"
+    implementation "org.springframework.boot:spring-boot-starter-cache:${springBootVersion}"
+
+
+	
+	implementation 'com.google.cloud:google-cloud-vision:3.32.0'
+
+	// javatuples
+	implementation 'org.javatuples:javatuples:1.2'
+
+	// Javascrip and CSS
+	implementation "org.webjars:webjars-locator-core:0.55"
+    implementation 'org.webjars:bootstrap:5.0.1'
+    implementation 'org.webjars.npm:bootstrap-icons:1.11.2'
+    implementation  'org.webjars.npm:htmx.org:1.9.9'
+    implementation  'org.webjars.npm:hyperscript.org:0.9.12'
+
+	// JSON mayby consider using Jackson
+	implementation 'com.google.code.gson:gson:2.10.1'
+
+	// Lombok
+	//compileOnly 'org.projectlombok:lombok'
+	//annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {

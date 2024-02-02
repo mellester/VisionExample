@@ -1,4 +1,4 @@
-package com.example.VisionService;
+package nl.mellesterk.ImmageAnnotator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

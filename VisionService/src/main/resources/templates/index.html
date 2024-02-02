@@ -1,0 +1,55 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout}">
+
+<head>
+    <title>Home</title>
+
+
+    <script type="text/hyperscript" src="/hs/uploader.hs" defer></script>
+    <link rel="stylesheet" href="/css/uploader.css">
+
+</head>
+
+<body>
+
+
+
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+
+            <!-- Header -->
+            <header class="py-5" layout:fragment="header">
+
+            </header>
+
+            <section class="bg-light py-5" layout:fragment="content">
+                <div class="container">
+                    <div class="container uploader" hx-target="this">
+                        <div class="uploader mb-3" htx-
+                            script="install Uploader(imgId:'img' ) on upload:success alert('yusss!')">
+                            <form hx-post="/post" hx-trigger="submit,change" hx-encoding="multipart/form-data" _='on htmx:xhr:progress(lengthComputable, loaded, total) if lengthComputable then set #progress.value to (loaded/total)*100 end
+                               on htmx:afterRequest set #progress.value to 100 then log "done" end
+                               on htmx:afterRequest trigger upload:success' hidden="true">
+                                <input type="file" id="manual-upload" name="file" accept="image/*">
+                            </form>
+                            <progress id="progress" max="100" value="0"></progress>
+                            <div class="space-below gray40"><i class="fa-solid fa-arrow-up-from-bracket fa-8x"></i>
+                            </div>
+                            <h2 class="space-below">Drag Files Here to Upload</h2>
+                            <label class="btn btn-primary" for="manual-upload" role="button">Or Click to Select from
+                                Your
+                                Device</label>
+                        </div>
+                    </div>
+                    <img id="img" />
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer layout:fragment="footer">
+                <!-- Include footer.pug -->
+            </footer>
+        </main>
+    </body>
+
+</html>
