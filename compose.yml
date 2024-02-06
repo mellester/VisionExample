@@ -21,7 +21,7 @@ services:
       dockerfile: ./Dockerfile
     volumes:
       - type: bind
-        source: ./VisionService/credentials.json
+        source: ${GOOGLE_APPLICATION_CREDENTIALS}
         target: /app/credentials.json
         read_only: true
     ports:
