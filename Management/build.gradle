@@ -15,9 +15,7 @@ repositories {
 	mavenCentral()
 }
 
-application {
-	mainClass = 'com.example.ExampleApplication'
-}
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'

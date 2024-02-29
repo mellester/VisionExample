@@ -8,7 +8,6 @@
     cursor: pointer;
     background-color: #eee;
     text-align:center;
-    max-height: 400px;
     overflow: auto;
 }
 

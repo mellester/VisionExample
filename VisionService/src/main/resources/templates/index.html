@@ -24,16 +24,23 @@
 
             <section class="bg-light py-5" layout:fragment="content">
                 <div class="container">
-                    <div class="container uploader" hx-target="this">
+                    <div class="container uploader" hx-ext="loading-states" data-loading-states hx-target="this">
                         <div class="uploader mb-3" htx-
                             script="install Uploader(imgId:'img' ) on upload:success alert('yusss!')">
-                            <form hx-post="/post" hx-trigger="submit,change" hx-encoding="multipart/form-data" _='on htmx:xhr:progress(lengthComputable, loaded, total) if lengthComputable then set #progress.value to (loaded/total)*100 end
-                               on htmx:afterRequest set #progress.value to 100 then log "done" end
+
+
+                            <form hx-post="/post"  hx-trigger="submit" hx-encoding="multipart/form-data" _='on htmx:xhr:progress(lengthComputable, loaded, total) if lengthComputable then set #progress.value to (loaded/total)*100 end
                                on htmx:afterRequest trigger upload:success' hidden="true">
+
                                 <input type="file" id="manual-upload" name="file" accept="image/*">
                             </form>
-                            <progress id="progress" max="100" value="0"></progress>
                             <div class="space-below gray40"><i class="fa-solid fa-arrow-up-from-bracket fa-8x"></i>
+                            </div>
+                            <div data-loading="inline flex" class="flex-column align-items-center">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <progress id="progress" max="100" value="0"></progress>
                             </div>
                             <h2 class="space-below">Drag Files Here to Upload</h2>
                             <label class="btn btn-primary" for="manual-upload" role="button">Or Click to Select from
@@ -41,7 +48,6 @@
                                 Device</label>
                         </div>
                     </div>
-                    <img id="img" />
                 </div>
             </section>
 

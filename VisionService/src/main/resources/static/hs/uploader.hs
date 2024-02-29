@@ -26,21 +26,22 @@ on drop(dataTransfer)
 	remove .highlight
 	set element input.files to dataTransfer.files
     trigger change on me
-    trigger submit on element form 
+
 
 on change
     set input to the element input
     set outImage to the element outImage
     js(input, imgId) 
         const files = input.files;
-         if (FileReader && files && files.length) {
-            var fr = new FileReader();
-            fr.onload = function () {
-                document.getElementById(imgId).src = fr.result;
-            }
-            fr.readAsDataURL(files[0]);
+         if (URL && files && files.length) {
+            let hiddenInput = document.createElement('input'); // Create new input element
+            hiddenInput.type = 'hidden'; // Set the type to 'hidden'
+            hiddenInput.name = 'imgLink'; // Set the name
+            hiddenInput.value = URL.createObjectURL(files[0]);// Set the value
+            input.insertAdjacentElement('afterend', hiddenInput)
         }
     end
+    trigger submit on element form 
  
 
 on htmx:xhr:progress

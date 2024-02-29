@@ -29,3 +29,7 @@ VisionService/credentials.json
 
 # Compose env file
 .env
+VisionService/out.txt
+VisionService/json.txt
+VisionService/json.json
+VisionService/out.txt

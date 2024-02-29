@@ -1,30 +1,42 @@
 # VisionExample
 A small Java application where we use Vision to see a license plate
 
+Note:
+This project use cloud resources for computation and requires you either join or create your own acounts to run this project.
+
+### Requirements 
+To check that your system can run and build this appilcation locally. in you shell run
+```sh
+java --version # Must be 17 or higher
+gradle --version # Must be 7 or higher (Get 8.6 if you can)
+docker --version 
+gcloud --version # google-cloud-cli read ahead to get a link to google docs on how to install this 
+```
+
 ### Setup
 Clone this repro.
 ```sh
-git clone mellester/VisionExample # Cloning into VisionExample
+git clone https://github.com/mellester/VisionExample.git # Cloning into VisionExample
 cd VisionExample # Switching folders into the new cloned folder
-cp .env.example .env # Copying the exmaple enf file into 
+cp .env.example .env # Copying the example file into a new one
+# open .env in you text editor of choice to be ready for the next step
+# ex:  `code .env`
 ```
 
 VisionService requires google cloud permisons see [google auth login](https://cloud.google.com/docs/authentication/provide-credentials-adc) on how to authenticate you pc
-
-Make sure the .env points to the correct location of your GOOGLE_APPLICATION_CREDENTIALS
+```sh 
+gcloud auth application-default login # Creates a json file
+```
+Partial output
+![example](./docs/example.png)
+Make sure the `.env` points to the correct location of your GOOGLE_APPLICATION_CREDENTIALS json file
 
 To build the application build each of the modules:
 
-```
-.\DatabaseModule\gradlew build -p .\DatabaseModule\
-.\Management\gradlew build -p .\Management\
-.\VisionService\gradlew build -p .\VisionService\
-```
-
 ```bash
-DatabaseModule/gradlew build -p DatabaseModule/
-Management/gradlew build -p Management/
-VisionService/gradlew build -p VisionService/
+./DatabaseModule/gradlew build -p DatabaseModule/
+./Management/gradlew build -p Management/
+./VisionService/gradlew build -p VisionService/
 ```
 
 

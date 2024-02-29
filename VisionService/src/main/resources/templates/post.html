@@ -4,9 +4,35 @@
     <title>List of Strings</title>
 </head>
 <body>
-    <h1>List of Strings</h1>
+    <h1>List of Strings found</h1>
     <ul>
-        <li th:each="string : ${strings}" th:text="${string}"></li>
+        Informatie over dit kenteken opvragen klik op de knop
+        <li th:each="plate : ${textPlates}">
+            <a class="btn btn-primary" th:text="${plate}" th:href="|/rwd?Kenteken=${plate}|" target="_blank"></a>
+        </li>
     </ul>
+    <div style="position: relative; display: inline-block;">
+        <img th:src="${imgLink}" alt="Your Image">
+        <svg th:width="${width}" height="${height}">
+            <polygon th:each="plate : ${plates}" th:points="|${#strings.listJoin(plate, ' ')}|"
+            stroke="green" fill="transparent" stroke-width="2"/>
+        </svg> 
+            
+      </div>
 </body>
+<style>
+    .img {
+        position: absolute;
+        left: var(--varx1);
+        top: var(--vary1);
+        width:  calc(var(--varx3) - var(--varx1));
+        height: calc(var(--vary3) - var(--vary1));
+        border: red solid 2px;
+    }
+    svg {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+</style>
 </html>
