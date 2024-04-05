@@ -18,15 +18,17 @@
         <main class="flex-shrink-0">
 
             <!-- Header -->
-            <header class="py-5" layout:fragment="header">
-
+            <header class="py-5 container" layout:fragment="header">
+                <h1>License plate Reader</h1>
+                <p>Upload a picture of a License plate and have a imagine detection algorithm give you back a useful hyperlink.</p>
+                <i>Make sure the license plate is the primary subject of the picture.</i>
             </header>
-
+            
             <section class="bg-light py-5" layout:fragment="content">
                 <div class="container">
                     <div class="container uploader" hx-ext="loading-states" data-loading-states hx-target="this">
                         <div class="uploader mb-3" htx-
-                            script="install Uploader(imgId:'img' ) on upload:success alert('yusss!')">
+                            script="install Uploader(imgId:'img' )">
 
 
                             <form hx-post="/post"  hx-trigger="submit" hx-encoding="multipart/form-data" _='on htmx:xhr:progress(lengthComputable, loaded, total) if lengthComputable then set #progress.value to (loaded/total)*100 end
@@ -42,7 +44,7 @@
                                 </div>
                                 <progress id="progress" max="100" value="0"></progress>
                             </div>
-                            <h2 class="space-below">Drag Files Here to Upload</h2>
+                            <h2 class="space-below">Drag Picture Here to Upload</h2>
                             <label class="btn btn-primary" for="manual-upload" role="button">Or Click to Select from
                                 Your
                                 Device</label>

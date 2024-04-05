@@ -3,6 +3,7 @@ package nl.mellesterk.ImmageAnnotator;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.time.Duration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -28,10 +29,24 @@ import nl.mellesterk.ImmageAnnotator.QuickstartSample.TextResult;
 import java.util.function.Function;
 import java.util.logging.Logger;
 
+import io.github.bucket4j.Bandwidth;
+import io.github.bucket4j.Bucket;
+import io.github.bucket4j.Refill;
+
 @Controller
 public class VisionController {
 
   private static final Logger logger = Logger.getLogger(VisionController.class.getName());
+
+  private final Bucket bucket;
+
+  public VisionController() {
+      Bandwidth limit = Bandwidth.classic(20, Refill.greedy(20, Duration.ofHours(1)));
+      this.bucket = Bucket.builder()
+          .addLimit(limit)
+          .addLimit(Bandwidth.classic(5, Refill.intervally(5, Duration.ofSeconds(20))))
+          .build();
+  }
 
   @Autowired
   private SpringTemplateEngine springTemplateEngine;

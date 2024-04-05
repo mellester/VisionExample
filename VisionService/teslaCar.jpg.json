@@ -1,0 +1,1945 @@
+{
+  "faceAnnotations_": [],
+  "landmarkAnnotations_": [],
+  "logoAnnotations_": [],
+  "labelAnnotations_": [],
+  "localizedObjectAnnotations_": [
+    {
+      "mid_": "/m/0k4j",
+      "languageCode_": "",
+      "name_": "Car",
+      "score_": 0.9603872,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.11669922,
+            "y_": 0.14257812,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.97265625,
+            "y_": 0.14257812,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.97265625,
+            "y_": 0.87890625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.11669922,
+            "y_": 0.87890625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "/m/0h9mv",
+      "languageCode_": "",
+      "name_": "Tire",
+      "score_": 0.77458966,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.6328125,
+            "y_": 0.53515625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.73828125,
+            "y_": 0.53515625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.73828125,
+            "y_": 0.87890625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.6328125,
+            "y_": 0.87890625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "/m/0h9mv",
+      "languageCode_": "",
+      "name_": "Tire",
+      "score_": 0.7727884,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.87890625,
+            "y_": 0.44726562,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.96484375,
+            "y_": 0.44726562,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.96484375,
+            "y_": 0.68359375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.87890625,
+            "y_": 0.68359375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "/m/083wq",
+      "languageCode_": "",
+      "name_": "Wheel",
+      "score_": 0.76715493,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.6328125,
+            "y_": 0.53515625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.73828125,
+            "y_": 0.53515625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.73828125,
+            "y_": 0.87890625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.6328125,
+            "y_": 0.87890625,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "/m/083wq",
+      "languageCode_": "",
+      "name_": "Wheel",
+      "score_": 0.75000393,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.87890625,
+            "y_": 0.44726562,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.96484375,
+            "y_": 0.44726562,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.96484375,
+            "y_": 0.68359375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.87890625,
+            "y_": 0.68359375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "/m/01g317",
+      "languageCode_": "",
+      "name_": "Person",
+      "score_": 0.6863297,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.515625,
+            "y_": 0.23046875,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.62109375,
+            "y_": 0.23046875,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.62109375,
+            "y_": 0.33789062,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.515625,
+            "y_": 0.33789062,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "/m/01jfm_",
+      "languageCode_": "",
+      "name_": "License plate",
+      "score_": 0.64935035,
+      "boundingPoly_": {
+        "vertices_": [],
+        "normalizedVertices_": [
+          {
+            "x_": 0.21679688,
+            "y_": 0.6484375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.36132812,
+            "y_": 0.6484375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.36132812,
+            "y_": 0.71484375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 0.21679688,
+            "y_": 0.71484375,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    }
+  ],
+  "textAnnotations_": [
+    {
+      "mid_": "",
+      "locale_": "en",
+      "description_": "S-474-BK",
+      "score_": 0.0,
+      "confidence_": 0.0,
+      "topicality_": 0.0,
+      "boundingPoly_": {
+        "vertices_": [
+          {
+            "x_": 278,
+            "y_": 526,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 416,
+            "y_": 526,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 416,
+            "y_": 567,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 278,
+            "y_": 567,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "normalizedVertices_": [],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "locations_": [],
+      "properties_": [],
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "",
+      "locale_": "",
+      "description_": "S",
+      "score_": 0.0,
+      "confidence_": 0.0,
+      "topicality_": 0.0,
+      "boundingPoly_": {
+        "vertices_": [
+          {
+            "x_": 280,
+            "y_": 527,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 300,
+            "y_": 529,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 298,
+            "y_": 558,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 278,
+            "y_": 557,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "normalizedVertices_": [],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "locations_": [],
+      "properties_": [],
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "",
+      "locale_": "",
+      "description_": "-",
+      "score_": 0.0,
+      "confidence_": 0.0,
+      "topicality_": 0.0,
+      "boundingPoly_": {
+        "vertices_": [
+          {
+            "x_": 299,
+            "y_": 528,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 313,
+            "y_": 529,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 311,
+            "y_": 559,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 297,
+            "y_": 558,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "normalizedVertices_": [],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "locations_": [],
+      "properties_": [],
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "",
+      "locale_": "",
+      "description_": "474",
+      "score_": 0.0,
+      "confidence_": 0.0,
+      "topicality_": 0.0,
+      "boundingPoly_": {
+        "vertices_": [
+          {
+            "x_": 308,
+            "y_": 528,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 364,
+            "y_": 532,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 361,
+            "y_": 563,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 306,
+            "y_": 559,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "normalizedVertices_": [],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "locations_": [],
+      "properties_": [],
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "",
+      "locale_": "",
+      "description_": "-",
+      "score_": 0.0,
+      "confidence_": 0.0,
+      "topicality_": 0.0,
+      "boundingPoly_": {
+        "vertices_": [
+          {
+            "x_": 364,
+            "y_": 533,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 376,
+            "y_": 534,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 374,
+            "y_": 564,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 362,
+            "y_": 563,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "normalizedVertices_": [],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "locations_": [],
+      "properties_": [],
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    },
+    {
+      "mid_": "",
+      "locale_": "",
+      "description_": "BK",
+      "score_": 0.0,
+      "confidence_": 0.0,
+      "topicality_": 0.0,
+      "boundingPoly_": {
+        "vertices_": [
+          {
+            "x_": 377,
+            "y_": 534,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 416,
+            "y_": 537,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 413,
+            "y_": 568,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          },
+          {
+            "x_": 375,
+            "y_": 565,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "normalizedVertices_": [],
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "locations_": [],
+      "properties_": [],
+      "memoizedIsInitialized": -1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    }
+  ],
+  "fullTextAnnotation_": {
+    "pages_": [
+      {
+        "property_": {
+          "detectedLanguages_": [
+            {
+              "languageCode_": "en",
+              "confidence_": 1.0,
+              "memoizedIsInitialized": -1,
+              "unknownFields": {
+                "fields": {}
+              },
+              "memoizedSize": -1,
+              "memoizedHashCode": 0
+            }
+          ],
+          "memoizedIsInitialized": -1,
+          "unknownFields": {
+            "fields": {}
+          },
+          "memoizedSize": -1,
+          "memoizedHashCode": 0
+        },
+        "width_": 1200,
+        "height_": 800,
+        "blocks_": [
+          {
+            "boundingBox_": {
+              "vertices_": [
+                {
+                  "x_": 280,
+                  "y_": 526,
+                  "memoizedIsInitialized": -1,
+                  "unknownFields": {
+                    "fields": {}
+                  },
+                  "memoizedSize": -1,
+                  "memoizedHashCode": 0
+                },
+                {
+                  "x_": 416,
+                  "y_": 537,
+                  "memoizedIsInitialized": -1,
+                  "unknownFields": {
+                    "fields": {}
+                  },
+                  "memoizedSize": -1,
+                  "memoizedHashCode": 0
+                },
+                {
+                  "x_": 413,
+                  "y_": 567,
+                  "memoizedIsInitialized": -1,
+                  "unknownFields": {
+                    "fields": {}
+                  },
+                  "memoizedSize": -1,
+                  "memoizedHashCode": 0
+                },
+                {
+                  "x_": 278,
+                  "y_": 557,
+                  "memoizedIsInitialized": -1,
+                  "unknownFields": {
+                    "fields": {}
+                  },
+                  "memoizedSize": -1,
+                  "memoizedHashCode": 0
+                }
+              ],
+              "normalizedVertices_": [],
+              "memoizedIsInitialized": -1,
+              "unknownFields": {
+                "fields": {}
+              },
+              "memoizedSize": -1,
+              "memoizedHashCode": 0
+            },
+            "paragraphs_": [
+              {
+                "boundingBox_": {
+                  "vertices_": [
+                    {
+                      "x_": 280,
+                      "y_": 526,
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    {
+                      "x_": 416,
+                      "y_": 537,
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    {
+                      "x_": 413,
+                      "y_": 567,
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    {
+                      "x_": 278,
+                      "y_": 557,
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    }
+                  ],
+                  "normalizedVertices_": [],
+                  "memoizedIsInitialized": -1,
+                  "unknownFields": {
+                    "fields": {}
+                  },
+                  "memoizedSize": -1,
+                  "memoizedHashCode": 0
+                },
+                "words_": [
+                  {
+                    "property_": {
+                      "detectedLanguages_": [
+                        {
+                          "languageCode_": "en",
+                          "confidence_": 1.0,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "boundingBox_": {
+                      "vertices_": [
+                        {
+                          "x_": 280,
+                          "y_": 527,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 300,
+                          "y_": 529,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 298,
+                          "y_": 558,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 278,
+                          "y_": 557,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "normalizedVertices_": [],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "symbols_": [
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 280,
+                              "y_": 527,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 300,
+                              "y_": 529,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 298,
+                              "y_": 558,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 278,
+                              "y_": 557,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "S",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      }
+                    ],
+                    "confidence_": 0.0,
+                    "memoizedIsInitialized": -1,
+                    "unknownFields": {
+                      "fields": {}
+                    },
+                    "memoizedSize": -1,
+                    "memoizedHashCode": 0
+                  },
+                  {
+                    "property_": {
+                      "detectedLanguages_": [
+                        {
+                          "languageCode_": "en",
+                          "confidence_": 1.0,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "boundingBox_": {
+                      "vertices_": [
+                        {
+                          "x_": 299,
+                          "y_": 528,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 313,
+                          "y_": 529,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 311,
+                          "y_": 559,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 297,
+                          "y_": 558,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "normalizedVertices_": [],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "symbols_": [
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 299,
+                              "y_": 528,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 313,
+                              "y_": 529,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 311,
+                              "y_": 559,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 297,
+                              "y_": 558,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "-",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      }
+                    ],
+                    "confidence_": 0.0,
+                    "memoizedIsInitialized": -1,
+                    "unknownFields": {
+                      "fields": {}
+                    },
+                    "memoizedSize": -1,
+                    "memoizedHashCode": 0
+                  },
+                  {
+                    "property_": {
+                      "detectedLanguages_": [
+                        {
+                          "languageCode_": "en",
+                          "confidence_": 1.0,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "boundingBox_": {
+                      "vertices_": [
+                        {
+                          "x_": 308,
+                          "y_": 528,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 364,
+                          "y_": 532,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 361,
+                          "y_": 563,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 306,
+                          "y_": 559,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "normalizedVertices_": [],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "symbols_": [
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 308,
+                              "y_": 529,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 328,
+                              "y_": 531,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 326,
+                              "y_": 560,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 306,
+                              "y_": 559,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "4",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      },
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 327,
+                              "y_": 530,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 344,
+                              "y_": 531,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 342,
+                              "y_": 561,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 325,
+                              "y_": 560,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "7",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      },
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 344,
+                              "y_": 531,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 364,
+                              "y_": 533,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 362,
+                              "y_": 562,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 342,
+                              "y_": 561,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "4",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      }
+                    ],
+                    "confidence_": 0.0,
+                    "memoizedIsInitialized": -1,
+                    "unknownFields": {
+                      "fields": {}
+                    },
+                    "memoizedSize": -1,
+                    "memoizedHashCode": 0
+                  },
+                  {
+                    "property_": {
+                      "detectedLanguages_": [
+                        {
+                          "languageCode_": "en",
+                          "confidence_": 1.0,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "boundingBox_": {
+                      "vertices_": [
+                        {
+                          "x_": 364,
+                          "y_": 533,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 376,
+                          "y_": 534,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 374,
+                          "y_": 564,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 362,
+                          "y_": 563,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "normalizedVertices_": [],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "symbols_": [
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 364,
+                              "y_": 533,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 376,
+                              "y_": 534,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 374,
+                              "y_": 564,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 362,
+                              "y_": 563,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "-",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      }
+                    ],
+                    "confidence_": 0.0,
+                    "memoizedIsInitialized": -1,
+                    "unknownFields": {
+                      "fields": {}
+                    },
+                    "memoizedSize": -1,
+                    "memoizedHashCode": 0
+                  },
+                  {
+                    "property_": {
+                      "detectedLanguages_": [
+                        {
+                          "languageCode_": "en",
+                          "confidence_": 1.0,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "boundingBox_": {
+                      "vertices_": [
+                        {
+                          "x_": 377,
+                          "y_": 534,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 416,
+                          "y_": 537,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 413,
+                          "y_": 568,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        {
+                          "x_": 375,
+                          "y_": 565,
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        }
+                      ],
+                      "normalizedVertices_": [],
+                      "memoizedIsInitialized": -1,
+                      "unknownFields": {
+                        "fields": {}
+                      },
+                      "memoizedSize": -1,
+                      "memoizedHashCode": 0
+                    },
+                    "symbols_": [
+                      {
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 377,
+                              "y_": 534,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 396,
+                              "y_": 535,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 394,
+                              "y_": 565,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 375,
+                              "y_": 564,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "B",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      },
+                      {
+                        "property_": {
+                          "detectedLanguages_": [],
+                          "detectedBreak_": {
+                            "type_": 5,
+                            "isPrefix_": false,
+                            "memoizedIsInitialized": -1,
+                            "unknownFields": {
+                              "fields": {}
+                            },
+                            "memoizedSize": -1,
+                            "memoizedHashCode": 0
+                          },
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "boundingBox_": {
+                          "vertices_": [
+                            {
+                              "x_": 395,
+                              "y_": 536,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 416,
+                              "y_": 538,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 414,
+                              "y_": 568,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            },
+                            {
+                              "x_": 393,
+                              "y_": 566,
+                              "memoizedIsInitialized": -1,
+                              "unknownFields": {
+                                "fields": {}
+                              },
+                              "memoizedSize": -1,
+                              "memoizedHashCode": 0
+                            }
+                          ],
+                          "normalizedVertices_": [],
+                          "memoizedIsInitialized": -1,
+                          "unknownFields": {
+                            "fields": {}
+                          },
+                          "memoizedSize": -1,
+                          "memoizedHashCode": 0
+                        },
+                        "text_": "K",
+                        "confidence_": 0.0,
+                        "memoizedIsInitialized": -1,
+                        "unknownFields": {
+                          "fields": {}
+                        },
+                        "memoizedSize": -1,
+                        "memoizedHashCode": 0
+                      }
+                    ],
+                    "confidence_": 0.0,
+                    "memoizedIsInitialized": -1,
+                    "unknownFields": {
+                      "fields": {}
+                    },
+                    "memoizedSize": -1,
+                    "memoizedHashCode": 0
+                  }
+                ],
+                "confidence_": 0.0,
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              }
+            ],
+            "blockType_": 1,
+            "confidence_": 0.0,
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "confidence_": 0.0,
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      }
+    ],
+    "text_": "S-474-BK",
+    "memoizedIsInitialized": -1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  "memoizedIsInitialized": -1,
+  "unknownFields": {
+    "fields": {}
+  },
+  "memoizedSize": -1,
+  "memoizedHashCode": 0
+}
